@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yavru Kartal & Koala</title>
+  <style>
+    body {
+      background: #2a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .photo-gallery div {
+      text-align: center;
+      max-width: 160px;
+    }
+    .photo-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+    .photo-gallery p {
+      margin-top: 5px;
+      font-size: 0.95em;
+      color: #ffcccb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Yavru Kartal & Koala</h1>
+
+  <div class="photo-gallery">
+    <div><img src="https://drive.google.com/thumbnail?id=1urpGGFIg3vc5frhSNGJC8AUyYQLUyBFQ" /><p>seni çok seviyorum</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1IroPi0Z2C_0PcB2odRSTrSXmioOrPAV5" /><p>bal peteği</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=179pxY1RApwNo5KSf1cklJHZ8e729zwba" /><p>yavrum kartal</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1iJkQ3LkTbbxnEXk_cjamTCdl7gA_aTx6" /><p>sana bayılırım</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=18-hE9vQTO5I1nsOrBstdDcKVdAfxB9P7" /><p>çok özledim</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1RyV8v9_nsPITE5DamQQrzNTcE6DE1QYm" /><p>bi taneşiii</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1Hho60vo_1Yvu_Ztw1X1rvdYYn1k7u5QH" /><p>bal bu ballll</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1U_vqOqASI9z9-LZDV-k_SpnhVlo96lMj" /><p>seni çok seviyorum</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1MYACJRadLCCsvn9ClmR9WrmS552j6ZYV" /><p>koala’m</p></div>
+    <div><img src="https://drive.google.com/thumbnail?id=1H-JlI6M4yHLGwfAH0h-tQo-Z_1FQNTY4" /><p>kartal’ım</p></div>
+  </div>
+</body>
+</html>
